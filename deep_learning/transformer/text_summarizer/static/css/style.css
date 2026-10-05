@@ -1,0 +1,75 @@
+body {
+    background-image: url("https://cdn.wallpapersafari.com/71/81/k7HuF6.jpg");
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h3 {
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.text {
+    color: aliceblue;
+}
+
+h4 {
+    color: rgb(79, 51, 152);
+    text-align: center;
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 248, 255, 0.2);
+    max-width: 600px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: rgb(29, 18, 56);
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: transform 0.2 ease-in-out;
+}
+
+.btn:hover {
+    filter: brightness(2);
+    transform: scale(1.01);
+    color: aliceblue;
+}
+
+.input-dialogue {
+    height: 100px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.output-container {
+    background-color: white;
+    border: 1px dashed black;
+    margin: 10px;
+    min-height: 100px;
+}
+
+.output-summary {
+    margin: 5px
+}
+

@@ -1,0 +1,15 @@
+[theme]
+# Primary accent color for sliders, checkboxes, and buttons
+primaryColor = "#0d2a58"
+
+# Main background color of the application
+backgroundColor = "#c4dbeb"
+
+# Background color for the sidebar and input widgets
+secondaryBackgroundColor = "#d1d3d7"
+
+# Color for all body and UI text
+textColor = "#31333F"
+
+# Font family selection: "sans serif", "serif", or "monospace"
+font = "sans serif"

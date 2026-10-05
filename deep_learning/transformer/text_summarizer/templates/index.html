@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialogue Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">
+    <script src="{{ url_for('static', path='/js/index.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Dialogue Summarizer</h1>
+        <h3>Using Hugging Face Google T5 Small</h3>
+        <form>
+            <p class="text">Write or paste your dialogue to be summarized: </p>
+            <textarea class="input-dialogue" id="input-dialogue" placeholder="Enter your dialogue..." required></textarea>
+            <button type="submit" class="btn" id="summarize-btn">Summarize</button>
+        </form>
+
+        <div class="output-container">
+            <h4>Content Summary</h4>
+            <p class="output-summary" id="output-summary"></p>
+        </div>
+    </div>
+</body>
+</html>
